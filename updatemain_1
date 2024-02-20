@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    QUIZ TIME
+  
+  <script src="script.js"></script>
+</body>
+  <div id="quiz">
+
+    <div class="question" id="question">Question goes here</div>
+
+    <div class="options" id="options">
+
+      <label class="option"><input type="radio" name="option" value="option1">Option 1</label>
+      <label class="option"><input type="radio" name="option" value="option2">Option 2</label>
+      <label class="option"><input type="radio" name="option" value="option3">Option 3</label>
+
+    </div>
+
+    <button id="submitButton">Submit Answer</button>
+
+    <div id="result"></div>
+
+  </div>
+</html>
